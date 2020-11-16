@@ -22,10 +22,14 @@ color:white;
     width: 150px;
     
 }
+.boximgl{
+    width: 100%;
+    height: 300px;
+}
 .img1l,
 .img2l{
     width: 100%;
-    height: 50%;
+    height: 100%;
     object-fit: cover;
 }
 .rc{
@@ -49,9 +53,10 @@ color:white;
     
 }
 .column-right{
-   
+    
     width:40%;
     height: 100%;
+    
 }
 footer{
     background: #616161;
@@ -93,9 +98,12 @@ header{
 .box2r,
 .box3r{
     background-color: rgb(203, 207, 211);
-    margin: 50px;
+    height: 33.33%;
+    margin: 20px;
+    margin-bottom: 70px;
     box-shadow: 2px /*horz*/-2px/*ver*/ 10px/*blur*/ 5px/*spread*/ rgba(0/*shadow*/,0/*backgroud*/,0/*box colo*/,.5/*opacity*/);
 }
+
 
 
 h6{
