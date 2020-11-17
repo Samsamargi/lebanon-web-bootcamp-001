@@ -1,0 +1,8 @@
+@media (max-width:500px) {
+    body{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 100%;
+    }
+}
