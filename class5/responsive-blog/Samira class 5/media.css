@@ -1,8 +1,29 @@
-@media (max-width:500px) {
-    body{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 100%;
+@media screen and (max-width:600px) {
+    .column{
+        display: block;
     }
-}
+    .column2{
+        width:80%;
+    }
+    .column1{ display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        }
+    .horses{
+        display:block;
+        width: 80vw;
+        margin: 10px 0px;
+    }
+    .horse{
+        display:block;
+    }
+    
+
+
+    }
+
+
