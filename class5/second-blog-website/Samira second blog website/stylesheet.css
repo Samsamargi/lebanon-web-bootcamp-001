@@ -27,11 +27,12 @@ h3,h2{
 }
 
 .column-1{
-    width:60%
+    width:65%;
+
 }
 
 .column-2{
-    width:30%
+    width:33%
 }
 
 .column{
@@ -84,7 +85,7 @@ h3,h2{
 }
 
 .show-image{
-    width: 100%;
+    width:90%;
 }
 
 .show-title{
@@ -110,7 +111,7 @@ h3,h2{
 }
 
 .posts-image{
-    width: 55px;
+    width: 100px;
     margin: 0 15px
 }
 
@@ -141,7 +142,7 @@ h3,h2{
 .highlights{
     display:inline-block;
     background-color:rgb(233, 233, 210);
-    color:white;
+    color:rgb(95, 95, 95);
     margin:15px;
 }
 
