@@ -1,0 +1,147 @@
+body{
+    padding:0;
+    margin:0;
+    font-family:Raleway;
+    background-color:rgba(245, 245, 245, 0.938);
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    padding: 50px;
+    background-color:rgb(92, 91, 91);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h3,h2{
+    margin:0;
+    padding:0;
+}
+
+.column-1{
+    width:60%
+}
+
+.column-2{
+    width:30%
+}
+
+.column{
+    display: inline-block;
+    vertical-align:top;
+    margin: 15px;
+}
+
+.highlight{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.show{
+    width:100%;
+    background-color:white;
+    margin: 25px 15px 25px 0;
+     box-shadow: 
+     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+     0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.show-describe{
+    padding: 22px;
+}
+
+.show-describe-list{
+    padding: 12px;
+    display: flex;
+    justify-self: start;
+}
+
+.show-describe h2{
+    margin: 0 0 6px 0;
+}
+
+.show-describe h3{
+    font-weight: lighter;
+}
+
+.show button:hover{
+    background-color:rgb(231, 222, 222) ;
+    cursor: pointer;
+}
+
+.show-image{
+    width: 100%;
+}
+
+.show-title{
+    background-color:lightblue;
+    padding: 15px;
+    font-weight:380px;
+}
+
+.tarikh{
+    color:gray
+}
+
+.buttons{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.split{
+    border-bottom: 1px solid gray;
+}
+
+.posts-image{
+    width: 55px;
+    margin: 0 15px
+}
+
+.post-display{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.off{
+    padding: 12px;
+    background-color:rgb(196, 195, 195) ;
+    border: 1px solid gray;
+    font-weight: bolder;
+    color: gray;
+    cursor:not-allowed;
+}
+
+.on{
+    padding: 12px;
+    background-color:black ;
+    border: 1px solid black;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;;
+}
+
+.highlights{
+    display:inline-block;
+    background-color:rgb(233, 233, 210);
+    color:white;
+    margin:15px;
+}
+
